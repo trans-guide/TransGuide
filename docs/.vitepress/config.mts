@@ -1,5 +1,11 @@
 import { defineConfig } from 'vitepress'
+import UnoCSS from 'unocss/vite'
 export default defineConfig({
+  vite: {
+    plugins: [
+      UnoCSS(),
+    ]
+  },
   locales: {
     root: {
       label: '中文',

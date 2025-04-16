@@ -1,11 +1,18 @@
 {
   "devDependencies": {
+    "@iconify-json/octicon": "^1.2.5",
     "@nolebase/vitepress-plugin-index": "^2.16.0",
+    "@unocss/preset-attributify": "^66.1.0-beta.11",
+    "@unocss/preset-icons": "^66.1.0-beta.11",
+    "unocss": "^66.1.0-beta.11",
     "vitepress": "^1.6.3"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "@vueuse/core": "^13.1.0"
   }
 }
