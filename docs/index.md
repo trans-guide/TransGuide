@@ -3,7 +3,7 @@ layout: home
 ---
 
 <script setup>
-import { data } from '../data/toc.data.ts'
+import { data } from './data/toc.data'
 </script>
 
 <NolebaseRecentUpdates :data="data" />
