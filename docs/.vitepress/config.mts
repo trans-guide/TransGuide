@@ -4,7 +4,18 @@ export default defineConfig({
   vite: {
     plugins: [
       UnoCSS(),
-    ]
+    ],
+    optimizeDeps: {
+      exclude: [
+        '@nolebase/vitepress-plugin-index/client',
+      ],
+    },
+    ssr: {
+      noExternal: [
+        '@nolebase/vitepress-plugin-index',
+        '@nolebase/ui',
+      ],
+    }
   },
   locales: {
     root: {
