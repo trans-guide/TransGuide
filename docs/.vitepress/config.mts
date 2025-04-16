@@ -54,8 +54,6 @@ export default defineConfig({
       }
     },
     darkModeSwitchLabel: '深色模式',
-    outlineTitle: '在此页面中',
-    returnToTopLabel: '回到顶部',
     footer: {
       copyright: '© 2025 TransGuide'
     },

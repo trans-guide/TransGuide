@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@nolebase/vitepress-plugin-index": "^2.16.0",
     "vitepress": "^1.6.3"
   },
   "scripts": {
